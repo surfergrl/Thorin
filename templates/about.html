@@ -8,8 +8,10 @@
 <body>
     <na>
         <ul>
-            <li><a href="a">"Home"</a></li>
-            <li><a href="a">"About"</a></li>
+            <li><a href="{{ url_for('index') }}">"Home"</a></li>
+            <li><a href="{{ url_for('about') }}">"About"</a></li>
+            <li><a href="{{ url_for('contact') }}">"Contact"</a></li>
+
         </ul>
     </na>
 
