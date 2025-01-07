@@ -1,6 +1,8 @@
 import os 
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, flash 
+if os.file.exist(env.py)
+    import env
 
 app = Flask(__name__)
 
